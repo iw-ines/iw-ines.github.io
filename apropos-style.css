@@ -1,0 +1,90 @@
+/* apropos-style.css */
+
+/* Autres styles... */
+/* apropos-style.css */
+
+/* Réinitialisation des styles par défaut */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Dosis', sans-serif;
+    background-color: #f8f8f8;
+    padding: 20px;
+  }
+  
+  nav {
+    background-color: #dedbd2;
+    padding: 10px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #333;
+    margin: 0 15px;
+  }
+  
+  nav a:hover {
+    color: #dedbd2;
+    background-color: #333;
+  }
+  
+  .center {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .intro {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .text-container {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  p {
+    color: #666;
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  
+
+
+.intro {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .gallery-item {
+    flex: 0 0 calc(33.33% - 20px); /* 33.33% width with a bit of margin */
+    margin: 10px;
+    text-align: center;
+  }
+  
+  .gallery-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .gallery-item p {
+    margin-top: 10px;
+    color: #666;
+    font-size: 16px;
+  }
+  
